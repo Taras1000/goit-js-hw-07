@@ -34,26 +34,3 @@ const markup = images.map((image) => `<li class="gallery-item"><img src="${image
 
 gallery.insertAdjacentHTML("afterbegin", markup);
 
-
-
-
-
-//       listItem.append(imageElement);
-//       return listItem;
-//     });
-
-// gallery.append(...galleryItems);
-
-
-
-
-
-// for (item of images) {
-//   item.setAttribute("width", "360px");
-//   item.setAttribute("height", "300px");
-// }
-
-// gallery.style.display = "flex";
-// gallery.style.flexWrap = "wrap";
-
-

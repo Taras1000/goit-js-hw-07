@@ -5,5 +5,5 @@ inputField.addEventListener('input', updateInput);
 
 function updateInput() {
     const inputValue = inputField.value.trim();
-    outputText.textContent = inputValue ? inputValue : "Anonymouse";
+    outputText.textContent = inputValue ? inputValue : "Anonymous";
 }
